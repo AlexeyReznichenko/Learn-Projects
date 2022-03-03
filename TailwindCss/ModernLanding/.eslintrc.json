@@ -1,0 +1,19 @@
+{
+    // "env": {
+    //     "browser": true,
+    //     "commonjs": true,
+    //     "es2021": true
+    // },
+    // "parserOptions": {
+    //     "ecmaVersion": 13
+    // },
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "warn",
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "func-names": "off",
+        "class-methods-use-this": "off",
+    }
+}

@@ -1,0 +1,297 @@
+/* ADAPTIVE REM GRID FOR 1920PX BASE DEVICE */
+
+html {
+  /* font-size: 62.5%; */
+  font-size: 10px;
+}
+
+/* @media only screen and (max-width: 115.625em) { */
+@media only screen and (max-width: 1850px) {
+  html {
+    /* font-size: 59.375%; */
+    font-size: 9.5px;
+  }
+}
+
+/* @media only screen and (max-width: 93.75em) { */
+@media only screen and (max-width: 1500px) {
+  html {
+    /* font-size: 48.25%; */
+    font-size: 7.72px;
+  }
+}
+
+/* @media only screen and (max-width: 84.375em) { */
+@media only screen and (max-width: 1350px) {
+  html {
+    /* font-size: 44.25%; */
+    font-size: 7.08px;
+  }
+}
+
+/* @media only screen and (max-width: 75em) { */
+@media only screen and (max-width: 1200px) {
+  html {
+    /* font-size: 42.25%; */
+    font-size: 6.76px;
+  }
+}
+
+/* @media only screen and (max-width: 68.75em) { */
+@media only screen and (max-width: 1100px) {
+  html {
+    /* font-size: 40%; */
+    font-size: 6.4px;
+  }
+}
+
+/* @media only screen and (max-width: 56.25em) { */
+@media only screen and (max-width: 900px) {
+  html {
+    /* font-size: 38%; */
+    font-size: 6.08px;
+  }
+}
+
+/* @media only screen and (max-width: 50em) { */
+@media only screen and (max-width: 800px) {
+  html {
+    /* font-size: 36%; */
+    font-size: 5.76px;
+  }
+}
+
+/* @media only screen and (max-width: 43.75em) { */
+@media only screen and (max-width: 700px) {
+  html {
+    /* font-size: 34%; */
+    font-size: 5.44px;
+  }
+}
+
+/* @media only screen and (max-width: 28.125em) { */
+@media only screen and (max-width: 450px) {
+  html {
+    /* font-size: 33%; */
+    font-size: 5.28px;
+  }
+}
+
+/* @media only screen and (max-width: 21.875em) { */
+@media only screen and (max-width: 350px) {
+  html {
+    /* font-size: 32%; */
+    font-size: 5.12px;
+  }
+}
+
+/* @media only screen and (min-width: 125em) { */
+@media only screen and (min-width: 2000px) {
+  html {
+    /* font-size: 69%; */
+    font-size: 11.04px;
+  }
+}
+
+/* @media only screen and (min-width: 137.5em) { */
+@media only screen and (min-width: 2200px) {
+  html {
+    /* font-size: 79%; */
+    font-size: 12.64px;
+  }
+}
+
+/* @media only screen and (min-width: 150em) { */
+@media only screen and (min-width: 2400px) {
+  html {
+    /* font-size: 86%; */
+    font-size: 13.76px;
+  }
+}
+
+/* FOR FURTHER SCAILING */
+
+/* 
+  @media only screen and (min-width: 156.25em) {
+  @media only screen and (min-width: 2500px) {
+    html {
+      font-size: 94%;
+      font-size: 15.04px;
+    }
+  }
+  
+  @media only screen and (min-width: 168.75em) {
+  @media only screen and (min-width: 2700px) {
+    html {
+      font-size: 101%;
+      font-size: 16.16px;
+    }
+  } 
+  */
+
+/* ADAPTIVE REM GRID FOR 1360PX BASE DEVICE */
+
+html {
+  /* font-size: 62.5%; */
+  font-size: 10px;
+}
+
+/* @media only screen and (max-width: 81.25em) { */
+@media only screen and (max-width: 1300px) {
+  html {
+    /* font-size: 56%; */
+    font-size: 8.96px;
+  }
+}
+
+/* @media only screen and (max-width: 75em) { */
+@media only screen and (max-width: 1200px) {
+  html {
+    /* font-size: 52.25%; */
+    font-size: 8.36px;
+  }
+}
+
+/* @media only screen and (max-width: 68.75em) { */
+@media only screen and (max-width: 1100px) {
+  html {
+    /* font-size: 50.25%; */
+    font-size: 8.04px;
+  }
+}
+
+/* @media only screen and (max-width: 56.25em) { */
+@media only screen and (max-width: 900px) {
+  html {
+    /* font-size: 48%; */
+    font-size: 7.68px;
+  }
+}
+
+/* @media only screen and (max-width: 50em) { */
+@media only screen and (max-width: 800px) {
+  html {
+    /* font-size: 46%; */
+    font-size: 7.36px;
+  }
+}
+
+/* @media only screen and (max-width: 43.75em) { */
+@media only screen and (max-width: 700px) {
+  html {
+    /* font-size: 44%; */
+    font-size: 7.04px;
+  }
+}
+
+/* @media only screen and (max-width: 28.125em) { */
+@media only screen and (max-width: 450px) {
+  html {
+    /* font-size: 42%; */
+    font-size: 6.72px;
+  }
+}
+
+/* @media only screen and (max-width: 21.875em) { */
+@media only screen and (max-width: 350px) {
+  html {
+    /* font-size: 41%; */
+    font-size: 6.56px;
+  }
+}
+
+/* @media only screen and (min-width: 93.75em) { */
+@media only screen and (min-width: 1500px) {
+  html {
+    /* font-size: 61%; */
+
+    /* font-size: 67%; */
+    font-size: 10.72px;
+  }
+}
+
+/* @media only screen and (min-width: 100em) { */
+@media only screen and (min-width: 1600px) {
+  html {
+    /* font-size: 69%; */
+
+    /* font-size: 73%; */
+    font-size: 11.68px;
+  }
+}
+
+/* @media only screen and (min-width: 115.625em) { */
+@media only screen and (min-width: 1850px) {
+  html {
+    /* font-size: 79%; */
+
+    /* font-size: 85%; */
+    font-size: 13.6px;
+  }
+}
+
+/* @media only screen and (min-width: 125em) { */
+@media only screen and (min-width: 2000px) {
+  html {
+    /* font-size: 86%; */
+
+    /* font-size: 92%; */
+    font-size: 14.72px;
+  }
+}
+
+/* @media only screen and (min-width: 137.5em) { */
+@media only screen and (min-width: 2200px) {
+  html {
+    /* font-size: 94%; */
+
+    /* font-size: 100%; */
+    font-size: 16px;
+  }
+}
+
+/* @media only screen and (min-width: 150em) { */
+@media only screen and (min-width: 2400px) {
+  html {
+    /* font-size: 101%; */
+
+    /* font-size: 107%; */
+    font-size: 17.12px;
+  }
+}
+
+/* @media only screen and (min-width: 168.75em) { */
+@media only screen and (min-width: 2700px) {
+  html {
+    /* font-size: 121%; */
+    font-size: 19.36px;
+  }
+}
+
+/* 
+  @media only screen and (min-width: 156.25em) {
+  @media only screen and (min-width: 2500px) {
+      html {
+        font-size: 109%; } }
+  @media only screen and (min-width: 168.75em) {
+  @media only screen and (min-width: 2700px) {
+      html {
+        font-size: 121%; } }
+    @media only screen and (min-width: 181.25em) {
+      html {
+        font-size: 126%; } } */
+/* @media only screen and (min-width: 193.75em) {
+      html {
+        font-size: 131%; } }
+    @media only screen and (min-width: 206.25em) {
+      html {
+        font-size: 136%; } }
+    @media only screen and (min-width: 218.75em) {
+      html {
+        font-size: 141%; } }
+    @media only screen and (min-width: 231.25em) {
+      html {
+        font-size: 151%; } }
+    @media only screen and (min-width: 250em) {
+      html {
+        font-size: 161%; } } */

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "FortniteBattlefest";
+  font-display: swap;
+  src: url("../assets/fonts/FortniteBattlefest.woff") format("woff"), url("../assets/fonts/FortniteBattlefest.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaNewBold-Reg";
+  font-display: swap;
+  src: url("../assets/fonts/FuturaNewBold-Reg.woff") format("woff"), url("../assets/fonts/FuturaNewBold-Reg.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaNewBook-Reg";
+  font-display: swap;
+  src: url("../assets/fonts/FuturaNewBook-Reg.woff") format("woff"), url("../assets/fonts/FuturaNewBook-Reg.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../assets/img/ShopHeaderSliderImage1.png);
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-color: whitesmoke;
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    color: red;
+  }
+}
+
+.wodka {
+  font-size: 20rem;
+}
+
+img {
+  width: 60%;
+}
+/*# sourceMappingURL=style.css.map */

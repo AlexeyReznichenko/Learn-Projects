@@ -1,0 +1,22 @@
+@import '~normalize.css';
+@import 'roboto.css';
+
+.container {
+    padding-top: 2rem;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    /* background-image: url('../assets/webpackLogo.png'); */
+    /* background-size: cover; */
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}

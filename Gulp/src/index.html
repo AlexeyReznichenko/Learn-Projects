@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=1920"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NUEF</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pragati+Narrow:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Pragati+Narrow:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+    </style>
+    <!-- <script src="https://unpkg.com/splitting@1.0.6/dist/splitting.min.js"></script> -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="preloader__center">
+        <img
+          src="assets/media/colorfulDisc.png"
+          alt=""
+          class="preloader__image"
+        />
+        <!-- <picture class="preloader__image">
+                    <source srcset="assets/media/colorfulDisc.webp" type="image/webp">
+                    <source srcset="assets/media/colorfulDisc.png" type="image/png">
+                    <img src="assets/media/colorfulDisc.png">
+                </picture> -->
+        <span class="preloader__text">NUEF</span>
+      </div>
+    </div>
+
+    <div class="registration-form__wrapper trigger-close-button">
+      <div class="registration-form">
+        <svg class="close-icon cross-icon" viewBox="0 0 20 20">
+          <path
+            class="cross-icon--path"
+            fill="white"
+            d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"
+          ></path>
+        </svg>
+        <div class="registration-form__container">
+          <div class="registration-form__heading-container">
+            <h1 class="registration-form__heading">Let's create!</h1>
+            <h5 class="registration-form__small-heading">
+              tell us some words about yourself
+            </h5>
+          </div>
+          <form action="#" class="registration-form__form">
+            <div class="registration-form__form__input-group">
+              <label for="emali" class="registration-form__form__label"
+                >E-mail</label
+              >
+              <div class="registration-form__form__input-img-group">
+                <input
+                  name="email"
+                  type="email"
+                  class="registration-form__form__input"
+                  placeholder="example@example.com"
+                  required
+                />
+                <img
+                  src="assets/media/email.svg"
+                  alt=""
+                  class="registration-form__form__email-svg"
+                />
+              </div>
+            </div>
+            <div class="registration-form__form__input-group">
+              <label for="social" class="registration-form__form__label"
+                >Social</label
+              >
+              <div class="registration-form__form__input-img-group">
+                <input
+                  name="social"
+                  type="text"
+                  class="registration-form__form__input"
+                  placeholder="Link or username"
+                  required
+                />
+                <img
+                  src="assets/media/telegram.svg"
+                  alt=""
+                  class="registration-form__form__telegram-svg"
+                />
+                <img
+                  src="assets/media/facebook.svg"
+                  alt=""
+                  class="registration-form__form__facebook-svg"
+                />
+                <img
+                  src="assets/media/insta.svg"
+                  alt=""
+                  class="registration-form__form__insta-svg"
+                />
+                <img
+                  src="assets/media/whatsapp.svg"
+                  alt=""
+                  class="registration-form__form__whatsapp-svg"
+                />
+              </div>
+            </div>
+            <div class="registration-form__form__input-group">
+              <label for="message" class="registration-form__form__label"
+                >Your message</label
+              >
+              <textarea
+                rows="4"
+                name="message"
+                class="registration-form__form__textarea"
+                placeholder="Introduce yourself"
+                required
+              ></textarea>
+              <img
+                src="assets/media/clip.svg"
+                alt=""
+                class="registration-form__form__clip-svg"
+              />
+            </div>
+            <button
+              class="registration-form__form__button button-background-animated"
+            >
+              Connect
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="fixedNav">
+      <a href="#" class="about-link line fixedNavLink">ABOUT</a>
+      <a href="#" class="artists-link line fixedNavLink">ARTISTS</a>
+      <a href="#" class="records-link line fixedNavLink">RECORDS</a>
+      <a href="#" class="daily-link line fixedNavLink">DAILY</a>
+    </div>
+
+    <div class="block one">
+      <div class="uix">
+        <nav class="line navigation-top">
+          <ul class="navigation-top__list">
+            <li class="list__item"><a href="#" class="">Studio</a></li>
+            <li class="list__item"><a href="#" class="">Landing</a></li>
+            <li class="list__item"><a href="#" class="">Collaborations</a></li>
+          </ul>
+          <a
+            href="#"
+            class="header-button trigger-button navigation-top__button"
+            >Contacts</a
+          >
+        </nav>
+        <div class="line">
+          <div class="e"></div>
+          <div class="e v o nuef-collaborations">NUEF COLLABORATIONS</div>
+        </div>
+        <div class="line">
+          <ul class="socials-bottom">
+            <li class="social"><a href="#" class="">Facebook</a></li>
+            <li class="social"><a href="#" class="">Instagram</a></li>
+            <li class="social"><a href="#" class="">Linkedin</a></li>
+          </ul>
+          <a href="#" class="e al">
+            <img src="assets/media/arrowDown.svg" />
+            ENG
+          </a>
+        </div>
+      </div>
+      <div class="title">
+        <div class="line header__two-lines">MAKING</div>
+        <div class="line header__two-lines">BRANDS</div>
+        <div class="header__famous-line line z">FAMOUS</div>
+        <!-- <img src="assets/media/singer2k.png" class="singer"> -->
+        <img srcset="assets/media/singer1k.png 1000w, assets/media/singer2k.png 2000w, assets/media/singer3k.png 3000w" 
+        sizes="(max-width: 600px) 55vw, 
+        (max-width: 900px) 37vw, 
+        (max-width: 1200px) 28vw, 
+        (max-width: 1500px) 24vw, 
+        (max-width: 1800px) 30vw, 
+        (max-width: 2100px) 25vw, 
+        (max-width: 2500px) 24vw, 
+        (max-width: 3000px) 20vw, 
+        25vw"
+        src="assets/media/singer2k.png" 
+        class="singer">
+        <!-- <picture class="singer">
+          <source srcset="assets/media/singer.webp" type="image/webp" />
+          <source srcset="assets/media/singer.png" type="image/png" />
+          <img src="assets/media/singer.png" />
+        </picture> -->
+
+        <div class="circle"></div>
+      </div>
+      <!-- <div class="spotlights__container"> -->
+        <div class="spotlights-white">
+          <img
+            src="assets/media/spotlightSmallW.png"
+            class="w spotlight-white spotlight-white-left"
+          />
+          <img
+            src="assets/media/spotlightSmallW.png"
+            class="w spotlight-white spotlight-white-center-left"
+          />
+          <img
+            src="assets/media/spotlightSmallW.png"
+            class="w spotlight-white spotlight-white-center-right"
+          />
+          <img
+            src="assets/media/spotlightSmallW.png"
+            class="w spotlight-white spotlight-white-right"
+          />
+        </div>
+
+        <div class="spotlights-pink">
+          <img
+            src="assets/media/spotlightSmallP.png"
+            class="p spotlight-pink"
+          />
+          <img
+            src="assets/media/spotlightSmallP.png"
+            class="p spotlight-pink"
+          />
+          <img
+            src="assets/media/spotlightSmallP.png"
+            class="p spotlight-pink"
+          />
+          <img
+            src="assets/media/spotlightSmallP.png"
+            class="p spotlight-pink"
+          />
+        </div>
+
+        <div class="spotlights-white-center">
+          <img
+            src="assets/media/spotlightSmallW.png"
+            class="
+              l
+              spotlight-white-center-bottom spotlight-white-center-bottom-left
+            "
+          />
+          <img
+            src="assets/media/spotlightSmallW.png"
+            class="
+              r
+              spotlight-white-center-bottom spotlight-white-center-bottom-right
+            "
+          />
+        </div>
+      <!-- </div> -->
+
+      <img
+        src="assets/media/spotlightTopCenter.png"
+        class="spotlight c spotlight-center"
+      />
+
+      <div class="crowd__container">
+        <!-- <img src="assets/media/crowd2k.png" class="crowd"> -->
+        <img srcset="assets/media/crowd1k.png 1000w,
+         assets/media/crowd2k.png 2000w, 
+         assets/media/crowd3k.png 3000w,
+         assets/media/crowd4k.png 4000w,
+         assets/media/crowd5k.png 5000w" 
+        sizes="(max-width: 450px) 210vw, 
+        (max-width: 600px) 155vw,
+        (max-width: 900px) 100vw, 
+        (max-width: 1200px) 100vw, 
+        (max-width: 1500px) 100vw, 
+        (max-width: 1800px) 100vw, 
+        (max-width: 2100px) 100vw, 
+        (max-width: 2500px) 100vw, 
+        (max-width: 3000px) 67vw, 
+        100vw"
+        src="assets/media/crowd2k.png" 
+        class="crowd">
+      </div>
+      <!-- <picture class="crowd">
+        <source srcset="assets/media/crowd.webp" type="image/webp" />
+        <source srcset="assets/media/crowd.png" type="image/png" />
+        <img src="assets/media/crowd.png" />
+      </picture> -->
+      <div class="smoke"></div>
+    </div>
+
+    <div class="block two">
+      <div class="content">
+        <div class="title">WELCOME TO <span>NUEF</span></div>
+        <div class="equaliser-container div">
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+          <ol class="equaliser-column">
+            <li class="colour-bar"></li>
+          </ol>
+        </div>
+        <div class="desc">
+          Money alone can’t buy anything here. We only want people who believe.
+          In case you will stop to believe in yourself or in your musical
+          project you really must talk about it with us. We work hard for you,
+          everyday and as a family member. That’s why an human contact is
+          requested if you’ll want to unaffiliate from us.
+        </div>
+      </div>
+      <div class="musicCircle left">
+        <img class="musicCircle-big" src="assets/media/musicCircle.png" />
+        <!-- <img srcset="assets/media/musicCircle500.png 500w,
+         assets/media/musicCircle.png 700w" 
+        sizes="(max-width: 450px) 112vw, 
+        (max-width: 600px) 85vw,
+        (max-width: 900px) 55vw, 
+        (max-width: 1200px) 45vw, 
+        (max-width: 1500px) 40vw,
+        40vw"
+        src="assets/media/musicCircle.png" 
+        class="musicCircle-big">
+      </div> -->
+        <!-- <picture class="musicCircle-big">
+                    <source srcset="assets/media/musicCircle.webp" type="image/webp">
+                    <source srcset="assets/media/musicCircle.png" type="image/png">
+                    <img src="assets/media/musicCircle.png">
+                </picture> -->
+        <div class="bg"></div>
+      </div>
+
+      <img
+        src="assets/media/musicCircleBottomRight500.png"
+        class="musicCircle-small musicCircle right"
+      />
+      <!-- <picture class="musicCircle-small musicCircle right">
+                <source srcset="assets/media/musicCircleBottomRight.webp" type="image/webp">
+                <source srcset="assets/media/musicCircleBottomRight.png" type="image/png">
+                <img src="assets/media/musicCircleBottomRight.png">
+            </picture> -->
+      <img src="assets/media/spotlightTopRight.png" class="spotlight" />
+    </div>
+
+    <div class="block three">
+      <div class="content">
+        <div class="col l text-block-three">
+          <div class="title">
+            <span class="span-left">CON</span
+            ><span class="span-right">NECT</span><br />TO
+            <span class="span-colorful">COMMUNITY</span>
+          </div>
+          <div class="desc">
+            10 TECHNOLOGIES THAT WILL TRANSFORM<br />THE GLOBAL ECONOMY BY 2025
+          </div>
+          <a href="#" class="block-three-button trigger-button btn btn-hover">
+            Connect
+            <img src="assets/media/arrowRight.svg" />
+          </a>
+        </div>
+        <div class="col r section__three__col__r disc-block-three">
+          <div class="circleBlock">
+            <img
+              class="circleBlock__image"
+              src="assets/media/musicRecord.png"
+            />
+            <!-- <picture class="circleBlock__image">
+                            <source srcset="assets/media/musicRecord.webp" type="image/webp">
+                            <source srcset="assets/media/musicRecord.png" type="image/png">
+                            <img src="assets/media/musicRecord.png">
+                        </picture> -->
+            <div class="connect-animation-button center">CONNECT</div>
+          </div>
+        </div>
+        <img
+          src="assets/media/spotlightTopLeft.png"
+          class="spotlight spotlight-block-three"
+        />
+      </div>
+      <img src="assets/media/leftArm1k.png" alt="" class="arm left-arm">
+      <!-- <picture class="arm left-arm">
+        <source srcset="assets/media/leftArm.webp" type="image/webp" />
+        <source srcset="assets/media/leftArm.png" type="image/png" />
+        <img src="assets/media/leftArm.png" />
+      </picture> -->
+      <img src="assets/media/rightArm1k.png" alt="" class="arm right-arm">
+      <!-- <picture class="arm right-arm">
+        <source srcset="assets/media/rightArm.webp" type="image/webp" />
+        <source srcset="assets/media/rightArm.png" type="image/png" />
+        <img src="assets/media/rightArm.png" />
+      </picture> -->
+    </div>
+
+    <div class="block four">
+      <div class="content">
+        <div class="col l">
+          <div class="text">
+            <div class="phone-line line">
+              <span class="phone-line-line"></span>MANAGE GROUP
+            </div>
+            <div class="phone-line line">
+              <span class="phone-line-line"></span>INSTAGRAM CHECK
+            </div>
+            <div class="phone-line line">
+              <span class="phone-line-line"></span>UPDATE STATUS
+            </div>
+            <div class="phone-line line">
+              <span class="phone-line-line"></span>CHECK MAIL
+            </div>
+            <div class="phone-line line">
+              <span class="phone-line-line"></span>INSTAGRAM CHECK
+            </div>
+            <div class="phone-line line">
+              <span class="phone-line-line"></span>UPDATE STATUS
+            </div>
+            <div class="phone-line line">
+              <span class="phone-line-line"></span>CHECK MAIL
+            </div>
+          </div>
+
+          <img class="phone_image" src="assets/media/phone.png">
+          <!-- <picture class="phone_image">
+            <source srcset="assets/media/phone.webp" type="image/webp" />
+            <source srcset="assets/media/phone.png" type="image/png" />
+            <img src="assets/media/phone.png" />
+          </picture> -->
+        </div>
+        <div class="col r">
+          <div class="title">
+            FORGET ABOUT ROUTINE.<br />LEAVE IT TO <span>NUEF</span>
+          </div>
+          <a href="#" class="block-four-button trigger-button btn btn-hover">
+            How it works?
+            <img src="assets/media/arrowRight.svg" />
+          </a>
+        </div>
+
+        <div class="waving-text-line waving-text-line-back curved-text">
+          <span class="span-1">Nuef // </span>
+          <span class="span-2">Nuef // </span>
+          <span class="span-3">Nuef // </span>
+          <span class="span-4">Nuef // </span>
+          <span class="span-5">Nuef // </span>
+          <span class="span-6">Nuef // </span>
+          <span class="span-7">Nuef // </span>
+          <span class="span-8">Nuef // </span>
+          <span class="span-9">Nuef // </span>
+          <span class="span-10">Nuef // </span>
+          <span class="span-11">Nuef // </span>
+          <span class="span-12">Nuef // </span>
+          <span class="span-13">Nuef // </span>
+          <span class="span-14">Nuef // </span>
+          <span class="span-15">Nuef // </span>
+          <span class="span-16">Nuef // </span>
+          <span class="span-17">Nuef // </span>
+          <span class="span-18">Nuef // </span>
+          <span class="span-19">Nuef // </span>
+          <span class="span-20">Nuef // </span>
+          <span class="span-21">Nuef // </span>
+          <span class="span-22">Nuef // </span>
+          <span class="span-23">Nuef // </span>
+          <span class="span-24">Nuef // </span>
+          <span class="span-25">Nuef // </span>
+          <span class="span-26">Nuef // </span>
+          <span class="span-27">Nuef // </span>
+          <span class="span-28">Nuef // </span>
+          <span class="span-29">Nuef // </span>
+          <span class="span-30">Nuef // </span>
+          <span class="span-31">Nuef // </span>
+          <span class="span-32">Nuef // </span>
+          <span class="span-33">Nuef // </span>
+          <span class="span-34">Nuef // </span>
+          <span class="span-35">Nuef // </span>
+          <span class="span-36">Nuef // </span>
+          <span class="span-37">Nuef // </span>
+          <span class="span-38">Nuef // </span>
+          <span class="span-39">Nuef // </span>
+          <span class="span-40">Nuef // </span>
+          <span class="span-41">Nuef // </span>
+          <span class="span-42">Nuef // </span>
+          <span class="span-43">Nuef // </span>
+          <span class="span-44">Nuef // </span>
+          <span class="span-45">Nuef // </span>
+          <span class="span-46">Nuef </span>
+        </div>
+
+        <div class="waving-text-line waving-text-line-front curved-text">
+          <span class="span-1">Nuef // </span>
+          <span class="span-2">Nuef // </span>
+          <span class="span-3">Nuef // </span>
+          <span class="span-4">Nuef // </span>
+          <span class="span-5">Nuef // </span>
+          <span class="span-6">Nuef // </span>
+          <span class="span-7">Nuef // </span>
+          <span class="span-8">Nuef // </span>
+          <span class="span-9">Nuef // </span>
+          <span class="span-10">Nuef // </span>
+          <span class="span-11">Nuef // </span>
+          <span class="span-12">Nuef // </span>
+          <span class="span-13">Nuef // </span>
+          <span class="span-14">Nuef // </span>
+          <span class="span-15">Nuef // </span>
+          <span class="span-16">Nuef // </span>
+          <span class="span-17">Nuef // </span>
+          <span class="span-18">Nuef // </span>
+          <span class="span-19">Nuef // </span>
+          <span class="span-20">Nuef // </span>
+          <span class="span-21">Nuef // </span>
+          <span class="span-22">Nuef // </span>
+          <span class="span-23">Nuef // </span>
+          <span class="span-24">Nuef // </span>
+          <span class="span-25">Nuef // </span>
+          <span class="span-26">Nuef // </span>
+          <span class="span-27">Nuef // </span>
+          <span class="span-28">Nuef // </span>
+          <span class="span-29">Nuef // </span>
+          <span class="span-30">Nuef // </span>
+          <span class="span-31">Nuef // </span>
+          <span class="span-32">Nuef // </span>
+          <span class="span-33">Nuef // </span>
+          <span class="span-34">Nuef // </span>
+          <span class="span-35">Nuef // </span>
+          <span class="span-36">Nuef // </span>
+          <span class="span-37">Nuef // </span>
+          <span class="span-38">Nuef // </span>
+          <span class="span-39">Nuef // </span>
+          <span class="span-40">Nuef // </span>
+          <span class="span-41">Nuef // </span>
+          <span class="span-42">Nuef // </span>
+          <span class="span-43">Nuef // </span>
+          <span class="span-44">Nuef // </span>
+          <span class="span-45">Nuef // </span>
+          <span class="span-46">Nuef </span>
+        </div>
+
+        <!-- <div class="waving-text-line waving-text-line-front curved-text">
+          Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef
+        </div> -->
+
+        <!-- <h2 class="main-h2 main-h2--front" data-splitting>
+                    Nuef // Nuef // Nuef // Nuef
+                </h2>
+                <h2 class="main-h2 main-h2--back" data-splitting>
+                    Nuef // Nuef // Nuef // Nuef
+                </h2> -->
+
+        <!-- <div class="waving-text-line waving-text-line-back">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path id="curve1" fill='transparent' fill-opacity='0' d="M0,96L60,122.7C120,149,240,203,360,240C480,277,600,299,720,266.7C840,235,960,149,1080,106.7C1200,64,1320,64,1380,64L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                <text class="curved-text curved-text--back">
+                    <textPath xlink:href="#curve1" class="curved-text--path">
+                        Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+        <div class="waving-text-line waving-text-line-front">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path id="curve2" fill='transparent' fill-opacity='0' d="M0,96L60,122.7C120,149,240,203,360,240C480,277,600,299,720,266.7C840,235,960,149,1080,106.7C1200,64,1320,64,1380,64L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                <text class="curved-text curved-text--front">
+                    <textPath xlink:href="#curve2" class="curved-text--path">
+                        Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef // Nuef
+                    </textPath>
+                </text>
+            </svg>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="block five">
+      <div class="content content-block-five">
+        <div class="line">
+          THE KEY TO SURVIVING THIS NEW INDUSTRIAL REVOLUTION IS
+        </div>
+        <div class="line">
+          LEADING IT. THAT REQUIRES TWO KEY ELEMENTS OF AGILE
+        </div>
+      </div>
+      <div class="footer footer-block-five">
+        <div class="moving-text-back text back">
+          <div class="name">DUCKO MCFIE</div>
+          <div class="div">//</div>
+          <div class="name">TY DOLLAR SIGN</div>
+          <div class="div">//</div>
+          <div class="name">EZA</div>
+          <div class="div">//</div>
+          <div class="name">FELLY</div>
+          <div class="div">//</div>
+          <div class="name">MARLON CRAFT</div>
+          <div class="div">//</div>
+          <div class="name">TYLER THE CREATOR</div>
+
+          <div class="name">//DUCKO MCFIE</div>
+          <div class="div">//</div>
+          <div class="name">TY DOLLAR SIGN</div>
+          <div class="div">//</div>
+          <div class="name">EZA</div>
+          <div class="div">//</div>
+          <div class="name">FELLY</div>
+          <div class="div">//</div>
+          <div class="name">MARLON CRAFT</div>
+          <div class="div">//</div>
+          <div class="name">TYLER THE CREATOR</div>
+
+          <div class="name">//DUCKO MCFIE</div>
+          <div class="div">//</div>
+          <div class="name">TY DOLLAR SIGN</div>
+          <div class="div">//</div>
+          <div class="name">EZA</div>
+          <div class="div">//</div>
+          <div class="name">FELLY</div>
+          <div class="div">//</div>
+          <div class="name">MARLON CRAFT</div>
+          <div class="div">//</div>
+          <div class="name">TYLER THE CREATOR</div>
+        </div>
+
+        <div class="image">
+          <div class="img"></div>
+        </div>
+
+        <div class="moving-text-front text front">
+          <div class="name">DUCKO MCFIE</div>
+          <div class="div">//</div>
+          <div class="name">TY DOLLAR SIGN</div>
+          <div class="div">//</div>
+          <div class="name">EZA</div>
+          <div class="div">//</div>
+          <div class="name a">FELLY</div>
+          <div class="div">//</div>
+          <div class="name">MARLON CRAFT</div>
+          <div class="div">//</div>
+          <div class="name">TYLER THE CREATOR</div>
+
+          <div class="name">//DUCKO MCFIE</div>
+          <div class="div">//</div>
+          <div class="name">TY DOLLAR SIGN</div>
+          <div class="div">//</div>
+          <div class="name">EZA</div>
+          <div class="div">//</div>
+          <div class="name a">FELLY</div>
+          <div class="div">//</div>
+          <div class="name">MARLON CRAFT</div>
+          <div class="div">//</div>
+          <div class="name">TYLER THE CREATOR</div>
+
+          <div class="name">//DUCKO MCFIE</div>
+          <div class="div">//</div>
+          <div class="name">TY DOLLAR SIGN</div>
+          <div class="div">//</div>
+          <div class="name">EZA</div>
+          <div class="div">//</div>
+          <div class="name a">FELLY</div>
+          <div class="div">//</div>
+          <div class="name">MARLON CRAFT</div>
+          <div class="div">//</div>
+          <div class="name">TYLER THE CREATOR</div>
+        </div>
+      </div>
+      <div class="studio studio-block-five"></div>
+      <div class="studioGlass studioGlass-block-five"></div>
+      <div class="studio-content">
+        So, how do you create an organization that is nimble,
+        <span>flexible</span> and takes a fresh view of team structure? These
+        are <span>the keys</span> to <span>creating</span> and
+        <span>maintaining</span> a successful business that will last the test
+        of time.
+      </div>
+
+      <div class="block block-contacts">
+        <div class="block-contacts__content">
+          <div class="block-contacts__image-container">
+            <!-- <img src="assets/media/nuefBox.png" alt="" class="block-contacts__image-square"> -->
+            <div class="block-contacts__image-square">
+              <span class="">Nuef</span>
+            </div>
+            <img
+              src="assets/media/discWithText.png"
+              alt=""
+              class="block-contacts__image-disc"
+            />
+            <!-- <picture class="block-contacts__image-disc">
+                            <source srcset="assets/media/discWithText.webp" type="image/webp">
+                            <source srcset="assets/media/discWithText.png" type="image/png">
+                            <img src="assets/media/discWithText.png">
+                        </picture> -->
+          </div>
+          <div class="block-contacts__text">
+            <h1 class="block-contacts__heading">Contact Us</h1>
+            <a
+              href="#"
+              class="
+                button-background-animated
+                trigger-button
+                block-contacts__button
+              "
+              >Right Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block footer">
+      <div class="content">
+        <div class="div"></div>
+        <div class="logo">NUEF</div>
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt.
+        </div>
+        <div class="nav">
+          <a href="#" class="e">Studio</a>
+          <a href="#" class="e">About</a>
+          <a href="#" class="e">Collaborations</a>
+          <a href="#" class="e">Partners</a>
+          <a href="#" class="e">Social</a>
+          <a href="#" class="e">FAQs</a>
+        </div>
+        <div class="socials">
+          <a href="#">
+            <img src="assets/media/facebookFooter.svg" />
+          </a>
+          <a href="#">
+            <img src="assets/media/twitter.svg" />
+          </a>
+          <a href="#">
+            <img src="assets/media/InstaFooter.svg" />
+          </a>
+        </div>
+        <img src="assets/media/sign.png" class="sign" />
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+  <script src="js/script.js"></script>
+</html>

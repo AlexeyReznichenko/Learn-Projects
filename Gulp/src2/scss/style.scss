@@ -1,0 +1,39 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+    @font-face {
+        font-family: $font_name;
+        font-display: swap;
+        src: url("../assets/fonts/#{$file_name}.woff") format("woff"), url("../assets/fonts/#{$file_name}.woff2") format("woff2");
+        font-weight: #{$weight};
+        font-style: #{$style};
+    }
+}
+
+@import 'fonts';
+
+body {
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    background-image: url(../assets/img/ShopHeaderSliderImage1.png);
+    background-size: cover;
+    @media (max-width: 767px) {
+        background-color: whitesmoke;
+    }
+}
+
+h1 {
+    font-size: 30px;
+    @media (max-width: 767px) {
+        color: red;
+    }
+}
+
+.wodka {
+    font-size: 20rem;
+}
+
+img {
+    width: 60%;
+}
